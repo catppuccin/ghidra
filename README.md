@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-![preview.webp](./assets/previews/preview.webp)
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/preview.webp"/>
 </p>
 
 ## Previews
@@ -31,7 +31,7 @@ Coming soon
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-![mocha.webp](./assets/previews/mocha.webp)
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/mocha.webp"/>
 </details>
 
 ## Usage
