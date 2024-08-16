@@ -39,7 +39,7 @@ Coming soon
 1. Download the `catppuccin.theme` file from this repository
 2. Click the `Edit` button in the menu bar of Ghidra's landing page
 3. Hover over `Theme` and click `Import...`
-4. Located the downloaded `catppuccin.theme` file and select it
+4. Locate the downloaded `catppuccin.theme` file and select it
 5. Enjoy reversing!
 
 ## 💝 Thanks to
