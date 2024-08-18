@@ -1,0 +1,116 @@
+name = Catppuccin Latte
+lookAndFeel = Flat Dark
+useDarkDefaults = true
+color.cursor.focused = color.catppuccin.rosewater
+
+color.fg.decompiler.comment = color.catppuccin.overlay2
+color.fg.decompiler.constant = color.catppuccin.peach
+color.fg.decompiler.function.name = color.catppuccin.blue
+color.fg.decompiler.keyword = color.catppuccin.mauve
+color.fg.decompiler.type = color.catppuccin.mauve
+color.fg.decompiler.variable = color.catppuccin.text
+color.fg.decompiler.parameter = color.catppuccin.maroon
+color.fg.decompiler.global = color.catppuccin.yellow
+
+color.fg.listing.bytes = color.catppuccin.blue
+color.fg.listing.comment.auto = color.catppuccin.overlay2
+color.fg.listing.comment.eol = color.catppuccin.overlay2
+color.fg.listing.comment.plate = color.catppuccin.overlay2
+color.fg.listing.comment.post = color.catppuccin.overlay2
+color.fg.listing.comment.pre = color.catppuccin.overlay2
+color.fg.listing.comment.ref.repeatable = color.catppuccin.red
+color.fg.listing.comment.repeatable = color.catppuccin.red
+color.fg.listing.constant = color.catppuccin.peach
+color.fg.listing.ext.entrypoint = color.fg
+color.fg.listing.ext.ref.resolved = color.catppuccin.mauve
+color.fg.listing.function.name = color.catppuccin.blue
+color.fg.listing.function.param.dynamic = color.catppuccin.maroon
+color.fg.listing.label.local = color.catppuccin.blue
+color.fg.listing.label.primary = color.catppuccin.yellow
+color.fg.listing.mnemonic = color.catppuccin.mauve
+color.fg.listing.mnemonic.override = color.fg
+color.fg.listing.underline = color.catppuccin.red
+color.fg.listing.xref = color.catppuccin.green
+color.fg.listing.xref.read = color.catppuccin.red
+color.fg.listing.ext.ref.unresolved = color.catppuccin.blue
+color.fg.listing.label.non.primary = color.catppuccin.white
+color.fg.listing.register = color.catppuccin.sky
+color.fg.listing.function.variable = color.catppuccin.text
+color.fg.listing.block.start = color.catppuccin.yellow
+color.fg.listing.function.tag = color.catppuccin.yellow
+color.fg.listing.tabs.text.selected = color.catppuccin.clicked
+
+color.bg.selection = color.catppuccin.selected
+color.bg.undefined = color.catppuccin.selected
+color.bg.highlight = color.catppuccin.highlight
+color.bg.header.active = #8839ef
+color.bg.header.inactive = color.catppuccin.selected
+
+color.palette.highlight.transparent.yellow = color.catppuccin.clicked
+
+color.bg.filterfield = color.catppuccin.selected
+color.fg.filterfield = color.catppuccin.white
+
+color.fg.interpreterconsole.error = color.catppuccin.red
+color.fg.consoletextpane = color.catppuccin.white
+
+color.fg.listing.flow.arrow.selected = color.catppuccin.yellow
+color.fg.listing.flow.arrow.active = color.catppuccin.green
+color.fg.listing.flow.arrow.inactive = color.catppuccin.red
+
+color.bg.plugin.overview.address.function = color.catppuccin.mauve
+color.bg.plugin.overview.address.instruction = color.catppuccin.blue
+color.bg.plugin.overview.address.data = color.catppuccin.yellow
+color.bg.plugin.overview.address.undefined = color.catppuccin.red
+color.bg.plugin.overview.address.uninitialized = color.catppuccin.white
+color.bg.plugin.overview.address.external.ref = color.catppuccin.peach
+
+color.bg.plugin.bookmark.note = color.catppuccin.mauve
+color.bg.plugin.bookmark.default = color.catppuccin.green
+color.bg.plugin.bookmark.info = color.catppuccin.yellow
+color.bg.plugin.bookmark.warning = color.catppuccin.peach
+color.bg.plugin.bookmark.analysis = color.catppuccin.blue
+color.bg.plugin.bookmark.error = color.catppuccin.red
+
+color.bg.listing.highlighter.default = color.catppuccin.clicked
+color.bg.listing.highlighter.scoped.read = color.catppuccin.mauve
+color.bg.listing.highlighter.scoped.write = color.catppuccin.green
+
+color.catppuccin.clicked = color.catppuccin.surface1
+color.catppuccin.selected = color.catppuccin.surface0
+color.catppuccin.highlight = color.catppuccin.mauve
+
+color.catppuccin.rosewater = #dc8a78
+color.catppuccin.flamingo = #dd7878
+color.catppuccin.pink = #ea76cb
+color.catppuccin.mauve = #8839ef
+color.catppuccin.red = #d20f39
+color.catppuccin.maroon = #e64553
+color.catppuccin.peach = #fe640b
+color.catppuccin.yellow = #df8e1d
+color.catppuccin.green = #40a02b
+color.catppuccin.teal = #179299
+color.catppuccin.sky = #04a5e5
+color.catppuccin.sapphire = #209fb5
+color.catppuccin.blue = #1e66f5
+color.catppuccin.lavender = #7287fd
+color.catppuccin.white = #4c4f69
+color.catppuccin.text = #4c4f69
+color.catppuccin.subtext1 = #5c5f77
+color.catppuccin.subtext0 = #6c6f85
+color.catppuccin.overlay2 = #7c7f93
+color.catppuccin.overlay1 = #8c8fa1
+color.catppuccin.overlay0 = #9ca0b0
+color.catppuccin.surface2 = #acb0be
+color.catppuccin.surface1 = #bcc0cc
+color.catppuccin.surface0 = #ccd0da
+color.catppuccin.base = #eff1f5
+color.catppuccin.mantle = #e6e9ef
+color.catppuccin.crust = #dce0e8
+
+[color]system.color.bg.view = color.catppuccin.base
+[color]system.color.fg.view = color.catppuccin.text
+[color]system.color.bg.border = color.catppuccin.mantle
+[color]system.color.bg.control = color.catppuccin.base
+[color]system.color.bg.tooltip = color.catppuccin.crust
+
