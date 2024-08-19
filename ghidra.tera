@@ -6,8 +6,8 @@ whiskers:
   filename: "themes/catppuccin-{{ flavor.identifier }}.theme"
 ---
 name = Catppuccin {{ flavor.identifier | capitalize }}
-lookAndFeel = Flat Dark
-useDarkDefaults = true
+lookAndFeel = Flat {% if flavor.dark %}Dark{% else %}Light{% endif %}
+useDarkDefaults = {{ flavor.dark | as_str }}
 color.cursor.focused = color.catppuccin.rosewater
 
 color.fg.decompiler.comment = color.catppuccin.overlay2
@@ -50,7 +50,7 @@ color.fg.listing.tabs.text.selected = color.catppuccin.clicked
 color.bg.selection = color.catppuccin.selected
 color.bg.undefined = color.catppuccin.selected
 color.bg.highlight = color.catppuccin.highlight
-color.bg.header.active = #{{ mauve.hex }}
+color.bg.header.active = #{{ flavors.latte.colors.mauve.hex }}
 color.bg.header.inactive = color.catppuccin.selected
 
 color.palette.highlight.transparent.yellow = color.catppuccin.clicked
