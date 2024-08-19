@@ -1,6 +1,6 @@
 name = Catppuccin Latte
-lookAndFeel = Flat Dark
-useDarkDefaults = true
+lookAndFeel = Flat Light
+useDarkDefaults = false
 color.cursor.focused = color.catppuccin.rosewater
 
 color.fg.decompiler.comment = color.catppuccin.overlay2
@@ -43,7 +43,7 @@ color.fg.listing.tabs.text.selected = color.catppuccin.clicked
 color.bg.selection = color.catppuccin.selected
 color.bg.undefined = color.catppuccin.selected
 color.bg.highlight = color.catppuccin.highlight
-color.bg.header.active = #8839ef
+color.bg.header.active = color.catppuccin.mauve
 color.bg.header.inactive = color.catppuccin.selected
 
 color.palette.highlight.transparent.yellow = color.catppuccin.clicked

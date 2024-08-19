@@ -19,15 +19,15 @@
 
 <details>
 <summary>🌻 Latte</summary>
-Coming soon
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-Coming soon
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-Coming soon
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
@@ -45,6 +45,7 @@ Coming soon
 ## 💝 Thanks to
 
 - [Anic](https://github.com/AnicJov)
+- [uncenter](https://github.com/uncenter)
 
 &nbsp;
 
