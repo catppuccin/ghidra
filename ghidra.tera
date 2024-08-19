@@ -1,0 +1,123 @@
+---
+whiskers:
+  version: "2.4.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.theme"
+---
+name = Catppuccin {{ flavor.identifier | capitalize }}
+lookAndFeel = Flat Dark
+useDarkDefaults = true
+color.cursor.focused = color.catppuccin.rosewater
+
+color.fg.decompiler.comment = color.catppuccin.overlay2
+color.fg.decompiler.constant = color.catppuccin.peach
+color.fg.decompiler.function.name = color.catppuccin.blue
+color.fg.decompiler.keyword = color.catppuccin.mauve
+color.fg.decompiler.type = color.catppuccin.mauve
+color.fg.decompiler.variable = color.catppuccin.text
+color.fg.decompiler.parameter = color.catppuccin.maroon
+color.fg.decompiler.global = color.catppuccin.yellow
+
+color.fg.listing.bytes = color.catppuccin.blue
+color.fg.listing.comment.auto = color.catppuccin.overlay2
+color.fg.listing.comment.eol = color.catppuccin.overlay2
+color.fg.listing.comment.plate = color.catppuccin.overlay2
+color.fg.listing.comment.post = color.catppuccin.overlay2
+color.fg.listing.comment.pre = color.catppuccin.overlay2
+color.fg.listing.comment.ref.repeatable = color.catppuccin.red
+color.fg.listing.comment.repeatable = color.catppuccin.red
+color.fg.listing.constant = color.catppuccin.peach
+color.fg.listing.ext.entrypoint = color.fg
+color.fg.listing.ext.ref.resolved = color.catppuccin.mauve
+color.fg.listing.function.name = color.catppuccin.blue
+color.fg.listing.function.param.dynamic = color.catppuccin.maroon
+color.fg.listing.label.local = color.catppuccin.blue
+color.fg.listing.label.primary = color.catppuccin.yellow
+color.fg.listing.mnemonic = color.catppuccin.mauve
+color.fg.listing.mnemonic.override = color.fg
+color.fg.listing.underline = color.catppuccin.red
+color.fg.listing.xref = color.catppuccin.green
+color.fg.listing.xref.read = color.catppuccin.red
+color.fg.listing.ext.ref.unresolved = color.catppuccin.blue
+color.fg.listing.label.non.primary = color.catppuccin.white
+color.fg.listing.register = color.catppuccin.sky
+color.fg.listing.function.variable = color.catppuccin.text
+color.fg.listing.block.start = color.catppuccin.yellow
+color.fg.listing.function.tag = color.catppuccin.yellow
+color.fg.listing.tabs.text.selected = color.catppuccin.clicked
+
+color.bg.selection = color.catppuccin.selected
+color.bg.undefined = color.catppuccin.selected
+color.bg.highlight = color.catppuccin.highlight
+color.bg.header.active = #{{ mauve.hex }}
+color.bg.header.inactive = color.catppuccin.selected
+
+color.palette.highlight.transparent.yellow = color.catppuccin.clicked
+
+color.bg.filterfield = color.catppuccin.selected
+color.fg.filterfield = color.catppuccin.white
+
+color.fg.interpreterconsole.error = color.catppuccin.red
+color.fg.consoletextpane = color.catppuccin.white
+
+color.fg.listing.flow.arrow.selected = color.catppuccin.yellow
+color.fg.listing.flow.arrow.active = color.catppuccin.green
+color.fg.listing.flow.arrow.inactive = color.catppuccin.red
+
+color.bg.plugin.overview.address.function = color.catppuccin.mauve
+color.bg.plugin.overview.address.instruction = color.catppuccin.blue
+color.bg.plugin.overview.address.data = color.catppuccin.yellow
+color.bg.plugin.overview.address.undefined = color.catppuccin.red
+color.bg.plugin.overview.address.uninitialized = color.catppuccin.white
+color.bg.plugin.overview.address.external.ref = color.catppuccin.peach
+
+color.bg.plugin.bookmark.note = color.catppuccin.mauve
+color.bg.plugin.bookmark.default = color.catppuccin.green
+color.bg.plugin.bookmark.info = color.catppuccin.yellow
+color.bg.plugin.bookmark.warning = color.catppuccin.peach
+color.bg.plugin.bookmark.analysis = color.catppuccin.blue
+color.bg.plugin.bookmark.error = color.catppuccin.red
+
+color.bg.listing.highlighter.default = color.catppuccin.clicked
+color.bg.listing.highlighter.scoped.read = color.catppuccin.mauve
+color.bg.listing.highlighter.scoped.write = color.catppuccin.green
+
+color.catppuccin.clicked = color.catppuccin.surface1
+color.catppuccin.selected = color.catppuccin.surface0
+color.catppuccin.highlight = color.catppuccin.mauve
+
+color.catppuccin.rosewater = #{{ rosewater.hex }}
+color.catppuccin.flamingo = #{{ flamingo.hex }}
+color.catppuccin.pink = #{{ pink.hex }}
+color.catppuccin.mauve = #{{ mauve.hex }}
+color.catppuccin.red = #{{ red.hex }}
+color.catppuccin.maroon = #{{ maroon.hex }}
+color.catppuccin.peach = #{{ peach.hex }}
+color.catppuccin.yellow = #{{ yellow.hex }}
+color.catppuccin.green = #{{ green.hex }}
+color.catppuccin.teal = #{{ teal.hex }}
+color.catppuccin.sky = #{{ sky.hex }}
+color.catppuccin.sapphire = #{{ sapphire.hex }}
+color.catppuccin.blue = #{{ blue.hex }}
+color.catppuccin.lavender = #{{ lavender.hex }}
+color.catppuccin.white = #{{ text.hex }}
+color.catppuccin.text = #{{ text.hex }}
+color.catppuccin.subtext1 = #{{ subtext1.hex }}
+color.catppuccin.subtext0 = #{{ subtext0.hex }}
+color.catppuccin.overlay2 = #{{ overlay2.hex }}
+color.catppuccin.overlay1 = #{{ overlay1.hex }}
+color.catppuccin.overlay0 = #{{ overlay0.hex }}
+color.catppuccin.surface2 = #{{ surface2.hex }}
+color.catppuccin.surface1 = #{{ surface1.hex }}
+color.catppuccin.surface0 = #{{ surface0.hex }}
+color.catppuccin.base = #{{ base.hex }}
+color.catppuccin.mantle = #{{ mantle.hex }}
+color.catppuccin.crust = #{{ crust.hex }}
+
+[color]system.color.bg.view = color.catppuccin.base
+[color]system.color.fg.view = color.catppuccin.text
+[color]system.color.bg.border = color.catppuccin.mantle
+[color]system.color.bg.control = color.catppuccin.base
+[color]system.color.bg.tooltip = color.catppuccin.crust
+

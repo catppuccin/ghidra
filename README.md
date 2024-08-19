@@ -19,15 +19,15 @@
 
 <details>
 <summary>🌻 Latte</summary>
-Coming soon
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-Coming soon
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-Coming soon
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
@@ -36,15 +36,16 @@ Coming soon
 
 ## Usage
 
-1. Download the `catppuccin.theme` file from this repository
-2. Click the `Edit` button in the menu bar of Ghidra's landing page
-3. Hover over `Theme` and click `Import...`
-4. Locate the downloaded `catppuccin.theme` file and select it
+1. Download your preferred flavor(s) from [`themes/`](./themes/).
+2. Click the `Edit` button in the menu bar of Ghidra's landing page.
+3. Hover over `Theme` and click `Import...`.
+4. Locate the downloaded theme file from Step 1 and select it.
 5. Enjoy reversing!
 
 ## 💝 Thanks to
 
 - [Anic](https://github.com/AnicJov)
+- [uncenter](https://github.com/uncenter)
 
 &nbsp;
 
