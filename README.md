@@ -12,26 +12,26 @@
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/preview.webp"/>
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/latte.webp"/>
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/previews/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/AnicJov/ghidra/main/assets/mocha.webp"/>
 </details>
 
 ## Usage
