@@ -36,11 +36,10 @@
 
 ## Usage
 
-1. Download your preferred flavor(s) from [`themes/`](./themes/).
-2. Click the `Edit` button in the menu bar of Ghidra's landing page.
-3. Hover over `Theme` and click `Import...`.
-4. Locate the downloaded theme file from Step 1 and select it.
-5. Enjoy reversing!
+1. Download the flavor of your choice from [themes](themes).
+2. Open Ghidra and go to **Edit** > **Theme** > **Import...**.
+3. Select the downloaded flavor file.
+4. Enjoy!
 
 ## 💝 Thanks to
 
