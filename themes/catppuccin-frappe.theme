@@ -1,9 +1,9 @@
 // General Theme Info
-name = Catppuccin Frappe
+name = Catppuccin Frappé
 lookAndFeel = Flat Dark
 useDarkDefaults = true
 
-// Catppuccin Frappe Color Palette
+// Catppuccin Frappé Color Palette
 color.catppuccin.rosewater = #f2d5cf
 color.catppuccin.flamingo = #eebebe
 color.catppuccin.pink = #f4b8e4

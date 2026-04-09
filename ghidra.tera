@@ -1,43 +1,44 @@
 ---
 whiskers:
-  version: "2.4.0"
+  version: "^2.9.0"
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.theme"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 // General Theme Info
-name = Catppuccin {{ flavor.identifier | capitalize }}
-lookAndFeel = Flat {% if flavor.dark %}Dark{% else %}Light{% endif %}
-useDarkDefaults = {{ flavor.dark | as_str }}
+name = Catppuccin {{ flavor.name }}
+lookAndFeel = Flat {% if flavor.light %}Light{% elif flavor.dark %}Dark{% endif %}
+useDarkDefaults = {{ flavor.dark }}
 
-// Catppuccin {{ flavor.identifier | capitalize }} Color Palette
-color.catppuccin.rosewater = #{{ rosewater.hex }}
-color.catppuccin.flamingo = #{{ flamingo.hex }}
-color.catppuccin.pink = #{{ pink.hex }}
-color.catppuccin.mauve = #{{ mauve.hex }}
-color.catppuccin.red = #{{ red.hex }}
-color.catppuccin.maroon = #{{ maroon.hex }}
-color.catppuccin.peach = #{{ peach.hex }}
-color.catppuccin.yellow = #{{ yellow.hex }}
-color.catppuccin.green = #{{ green.hex }}
-color.catppuccin.teal = #{{ teal.hex }}
-color.catppuccin.sky = #{{ sky.hex }}
-color.catppuccin.sapphire = #{{ sapphire.hex }}
-color.catppuccin.blue = #{{ blue.hex }}
-color.catppuccin.lavender = #{{ lavender.hex }}
-color.catppuccin.white = #{{ text.hex }}
-color.catppuccin.text = #{{ text.hex }}
-color.catppuccin.subtext1 = #{{ subtext1.hex }}
-color.catppuccin.subtext0 = #{{ subtext0.hex }}
-color.catppuccin.overlay2 = #{{ overlay2.hex }}
-color.catppuccin.overlay1 = #{{ overlay1.hex }}
-color.catppuccin.overlay0 = #{{ overlay0.hex }}
-color.catppuccin.surface2 = #{{ surface2.hex }}
-color.catppuccin.surface1 = #{{ surface1.hex }}
-color.catppuccin.surface0 = #{{ surface0.hex }}
-color.catppuccin.base = #{{ base.hex }}
-color.catppuccin.mantle = #{{ mantle.hex }}
-color.catppuccin.crust = #{{ crust.hex }}
+// Catppuccin {{ flavor.name }} Color Palette
+color.catppuccin.rosewater = {{ rosewater.hex }}
+color.catppuccin.flamingo = {{ flamingo.hex }}
+color.catppuccin.pink = {{ pink.hex }}
+color.catppuccin.mauve = {{ mauve.hex }}
+color.catppuccin.red = {{ red.hex }}
+color.catppuccin.maroon = {{ maroon.hex }}
+color.catppuccin.peach = {{ peach.hex }}
+color.catppuccin.yellow = {{ yellow.hex }}
+color.catppuccin.green = {{ green.hex }}
+color.catppuccin.teal = {{ teal.hex }}
+color.catppuccin.sky = {{ sky.hex }}
+color.catppuccin.sapphire = {{ sapphire.hex }}
+color.catppuccin.blue = {{ blue.hex }}
+color.catppuccin.lavender = {{ lavender.hex }}
+color.catppuccin.white = {{ text.hex }}
+color.catppuccin.text = {{ text.hex }}
+color.catppuccin.subtext1 = {{ subtext1.hex }}
+color.catppuccin.subtext0 = {{ subtext0.hex }}
+color.catppuccin.overlay2 = {{ overlay2.hex }}
+color.catppuccin.overlay1 = {{ overlay1.hex }}
+color.catppuccin.overlay0 = {{ overlay0.hex }}
+color.catppuccin.surface2 = {{ surface2.hex }}
+color.catppuccin.surface1 = {{ surface1.hex }}
+color.catppuccin.surface0 = {{ surface0.hex }}
+color.catppuccin.base = {{ base.hex }}
+color.catppuccin.mantle = {{ mantle.hex }}
+color.catppuccin.crust = {{ crust.hex }}
 
 
 // Decompiler Colors
